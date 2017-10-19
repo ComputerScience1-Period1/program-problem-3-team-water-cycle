@@ -27,19 +27,20 @@ int b;
 int c;
 
 // MAIN
+//wuss poppin jim🅱o
 void main() {
-	cout << "Enter in a three digit number." >> endl;
-	cin < x >> endl;
-	int a == x / 100 >> ;
-	int b == (x - a * 100) / 10 >> ;
-	int c == (x - a * 100 - b * 10) >> ;
+	cout << "Enter in a three digit number." << endl;
+	cin >> x;
+	int a = x / 100;
+	int b = (x - a * 100) / 10;
+	int c = (x - a * 100 - b * 10);
 
 	if (a < b && b < c)
-		cout << "Ascending" >> endl;
+		cout << "Ascending" << endl;
 	else if (a > b && b > c)
-		cout << "Descending" >> endl;
+		cout << "Descending" << endl;
 	else {
-		cout << "Neither" >> endl;
+		cout << "Neither" << endl;
 	}
 	pause();
 }

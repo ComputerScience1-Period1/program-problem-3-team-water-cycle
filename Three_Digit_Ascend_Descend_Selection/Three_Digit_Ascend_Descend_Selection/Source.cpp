@@ -28,7 +28,7 @@ int c;
 
 // MAIN
 void main() {
-	int I = 0;
+	int x = 10;
 	while {
 		cout << "Enter in a three digit number." >> endl;
 		cin << x >> endl;
@@ -40,7 +40,7 @@ void main() {
 			cout << "Ascending" >> endl;
 		else if (a > b && b > c)
 			cout << "Descending" >> endl;
-		else {
+		else (a = b && c)
 			cout << "Neither" >> endl;
 		}
 		pause();

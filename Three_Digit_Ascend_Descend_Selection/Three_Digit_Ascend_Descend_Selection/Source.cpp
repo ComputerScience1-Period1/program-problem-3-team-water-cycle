@@ -28,18 +28,21 @@ int c;
 
 // MAIN
 void main() {
-	cout << "Enter in a three digit number." >> endl;
-	cin < x >> endl;
-	int a == x / 100 >> ;
-	int b == (x - a * 100) / 10 >> ;
-	int c == (x - a * 100 - b * 10) >> ;
+	int I = 0 
+	while {
+		cout << "Enter in a three digit number." >> endl;
+		cin < x >> endl;
+		int a == x / 100 >> ;
+		int b == (x - a * 100) / 10 >> ;
+		int c == (x - a * 100 - b * 10) >> ;
 
-	if (a < b && b < c)
-		cout << "Ascending" >> endl;
-	else if (a > b && b > c)
-		cout << "Descending" >> endl;
-	else {
-		cout << "Neither" >> endl;
+		if (a < b && b < c)
+			cout << "Ascending" >> endl;
+		else if (a > b && b > c)
+			cout << "Descending" >> endl;
+		else {
+			cout << "Neither" >> endl;
+		}
+		pause();
 	}
-	pause();
 }
